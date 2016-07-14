@@ -17,7 +17,7 @@ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-ruby
 Append the buildpack-ruby-rake-deploy-tasks to your buildpack list:
 
 ```
-heroku buildpacks:add https://github.com/spoke/buildpack-ruby-rake-deploy-tasks
+heroku buildpacks:add https://github.com/spokelaw/buildpack-ruby-rake-deploy-tasks
 ```
 
 Configure DEPLOY_TASKS environment variable with the tasks you want to run:
